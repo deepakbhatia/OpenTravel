@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/obelix/Documents/projects/android/MyApplication3/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-3cf6b193501c086207030429fae3246782e68773.jar"
+        jar="/Users/obelix/Documents/projects/android/MyApplication3/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="/Users/obelix/Documents/projects/android/MyApplication3/app/build/intermediates/pre-dexed/debug/classes-96dd5d6283133f4410b0852785992709447be893.jar"
+        jar="/Users/obelix/Documents/projects/android/MyApplication3/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0c0c19759e5868604a3b4c2c0074ee9404d73c76"/>
+    <item
+        dex="/Users/obelix/Documents/projects/android/MyApplication3/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-ee576f91b45a6538d4156fc6e674b6f65034f74e.jar"
+        jar="/Applications/Android Studio.app/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
+    <item
+        dex="/Users/obelix/Documents/projects/android/MyApplication3/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-938160e97f24b93e79bd8cda2d4b9da305f67b67.jar"
+        jar="/Users/obelix/Documents/projects/android/MyApplication3/build/intermediates/exploded-aar/com.android.support/support-v13/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5a8e01742aee890c56fe638ea7c921b91a3fdc62"/>
+    <item
+        dex="/Users/obelix/Documents/projects/android/MyApplication3/app/build/intermediates/pre-dexed/debug/classes-ad0615bfa6c0e65ec3fd3c822380639a543ede2c.jar"
+        jar="/Users/obelix/Documents/projects/android/MyApplication3/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
+    <item
+        dex="/Users/obelix/Documents/projects/android/MyApplication3/app/build/intermediates/pre-dexed/debug/classes-5e7de09616acc45c7f8375bf0783af68cee64c41.jar"
+        jar="/Users/obelix/Documents/projects/android/MyApplication3/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.1.71/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0f6d5c1ef2e982c3b7858408e3df389cf5d202da"/>
+
+</pre-dex-items>

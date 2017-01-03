@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.projects050414.myapplication3.app.MainActivity" >
+      <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+    <item android:id="@+id/clear_search_history"
+        android:title="@string/clear_search_history"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/content_search"
+        android:title="@string/search_title"
+        android:icon="@drawable/ic_action_search"
+        android:showAsAction="collapseActionView|ifRoom"
+        android:actionViewClass="android.widget.SearchView"/>
+    <item android:id="@+id/addtrip"
+        android:title="@string/addtrip"
+        android:icon="@drawable/ic_action_add"
+        android:showAsAction="collapseActionView|ifRoom"
+        />
+
+</menu>

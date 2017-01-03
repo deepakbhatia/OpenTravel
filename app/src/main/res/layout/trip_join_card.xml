@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical"
+    style="@style/Card"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/from_trip"
+        android:autoText="false"
+        android:textColor="@color/black_overlay"
+        android:paddingTop="@dimen/padding_between_fields"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/to_trip"
+        android:autoText="false"
+        android:textColor="@color/black_overlay"
+        android:paddingTop="@dimen/padding_between_fields"
+        android:layout_below="@+id/from_trip"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/black_overlay"
+        android:id="@+id/time_trip"
+        android:autoText="false"
+        android:paddingTop="@dimen/padding_between_fields"
+        android:layout_below="@+id/date_trip"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/date_trip"
+        android:textColor="@color/black_overlay"
+        android:autoText="false"
+        android:paddingTop="@dimen/padding_between_fields"
+        android:layout_below="@+id/to_trip"/>
+    <TextView
+        android:id="@+id/trip_info_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date_trip"
+        android:textSize="@dimen/card_content_text"
+        style="@style/Card"
+        android:text="You will have access to the email address and/or phone number of the person when you join the trip."/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/trip_join"
+        >
+
+        <Button
+            android:id="@+id/delete_trip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/join_trip"
+            style="@style/ButtonAppTheme"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

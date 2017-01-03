@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/origin_trip"
+        android:autoText="true"
+        android:hint="@string/start_of_trip"
+        style="@style/AutoCompleteTextViewAppTheme" />
+
+    <AutoCompleteTextView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/origin_trip"
+        android:id="@+id/end_trip"
+        android:hint="@string/end_of_trip"
+        android:autoText="true"
+        android:singleLine="false"
+        android:drawableEnd="@drawable/powered_by_google_on_white"
+        />
+    <Button
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trip_dateButton"
+        android:text="Date"
+        android:drawableRight="@drawable/ic_action_calendar_day"
+        android:clickable="true"
+        android:paddingTop="@dimen/padding_between_fields"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:layout_below="@+id/end_trip"
+        android:onClick="showDatePickerDialog"/>
+    <Button
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/trip_timeButton"
+        android:paddingTop="@dimen/padding_between_fields"
+        android:text="Time"
+        android:drawableRight="@drawable/ic_action_clock"
+        android:clickable="true"
+        android:background="@null"
+        android:layout_gravity="center"
+        android:onClick="showTimePickerDialog"/>
+    <Button
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:id="@+id/submit"
+        android:clickable="true"
+        style="@style/ButtonAppTheme"
+        android:paddingTop="@dimen/padding_between_fields"
+        android:layout_gravity="center"
+        android:onClick="getTripOptions"
+        />
+
+
+</LinearLayout>
